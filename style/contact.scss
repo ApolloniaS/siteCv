@@ -1,29 +1,22 @@
+// css spécifique aux classes de la section contact
+
+.contact {
+    position: relative;
+}
+
 .message {
+    font-family: "AA Typewriter";
     height: 15%;
     padding: 20px 20px 100px 20px;
-    font-family: "AA Typewriter";
     font-size: 32px;
     text-align: center;
 }
 
-.contact-info {
-    position: relative;
-    height: 70%;
-    display: flex;
-    
-}
-
-.nav-arrow-left{
-    position: absolute;
-    left: 20px;
-    top: 48%;  
-}
-
 .contact-form {
+    width: 50%;
     position: absolute;
     top: 30%;
-    left: 25%;
-   
+    left: 15%;
 }
 
 .links {
@@ -32,20 +25,30 @@
     right: 15%;
 }
 
-.input-name, .input-object, textarea {
+.input-name, .input-object, .input-email, textarea {
     padding: 5px;
+    margin-bottom: 5px;
     border: solid $darkviolet 1px;
     background-color: $block-background;
 }
 
 textarea {
-    width: 200%;
+    width: 50%;
     height: 150px;
     resize: none;
 }
 
+.submit-btn{
+    background-color: $block-background;
+}
 
 .link-icon {
     color: $darkviolet;
     font-size: 25px;
+}
+
+.nav-arrow-left{
+    position: absolute;
+    left: 20px;
+    top: 48%;  
 }

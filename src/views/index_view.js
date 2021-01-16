@@ -1,7 +1,7 @@
+import { getContainers } from '../data/custom-function';
+
 export function generateIndex() {
-  const containers = document.querySelectorAll('.container');
-  const background = containers[2];
-  background.innerHTML += '<section class="index" id="index"></section>';
+  getContainers(2, 'contactContainer', 'index');
 
   // squelette de l'index
   const index = document.querySelector('.index');
