@@ -1,0 +1,181 @@
+@charset "UTF-8";
+@import "@fortawesome/fontawesome-free/css/all.css";
+@font-face {
+  font-family: "AA Typewriter";
+  src: url("static\fontªTypewriter2.woff") format("woff2"), url("static\fontªTypewriter.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e0aaff;
+  padding: 0;
+  margin: 0;
+}
+
+section {
+  width: 100vw;
+  height: 100vh;
+  border: solid red 1px;
+}
+
+.direction {
+  color: #240046;
+  font-size: 32px;
+}
+
+.container {
+  width: 300vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+#index {
+  display: flex;
+  position: relative;
+}
+
+.left-part {
+  width: 50%;
+  border-right: solid #240046 2px;
+}
+
+.right-part {
+  width: 50%;
+  border-left: solid #240046 2px;
+}
+
+#left-top-arrow {
+  text-align: right;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+#left-bottom-arrow {
+  text-align: right;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+}
+
+#left-middle-arrow {
+  text-align: right;
+  padding-top: 200px;
+  padding-left: 20px;
+}
+
+#right-middle-arrow {
+  text-align: right;
+  padding-top: 200px;
+  padding-right: 20px;
+}
+
+#right-top-arrow {
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+#right-bottom-arrow {
+  text-align: left;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+}
+
+.index-middle {
+  display: flex;
+  position: relative;
+  top: 40%;
+  left: 40%;
+  transform: translate(-40%, -40%);
+}
+
+.description {
+  margin: 100px auto;
+  width: 250px;
+  /* taille temp */
+  height: 250px;
+  /* taille temp */
+  border: solid #240046 1px;
+  box-shadow: 3px 3px 10px 1px black;
+}
+
+#floating-box {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  background-color: #10002B;
+  height: 150px;
+  width: 150px;
+  margin-left: -75px;
+  color: white;
+}
+
+#skills {
+  flex-shrink: 0;
+}
+
+#contact {
+  flex-shrink: 0;
+}
+
+.section-header {
+  display: flex;
+  padding: 20px 20px 100px 20px;
+  justify-content: space-between;
+  height: 15%;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #3c096c;
+}
+
+.timeline {
+  text-align: center;
+  padding: 100px 25px;
+  height: 35%;
+}
+
+.legend {
+  margin: auto;
+  width: 50%;
+  font-size: 20px;
+  height: 35%;
+}
+
+.dot-xp,
+.dot-study {
+  padding-right: 5px;
+  font-size: 14px;
+}
+
+.dot-study {
+  padding-left: 100px;
+  color: #7b2cbf;
+}
+
+.dot-xp {
+  color: #9d4edd;
+}
+
+.nav-arrow {
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  height: 15%;
+}
+
+/*# sourceMappingURL=style.css.map */

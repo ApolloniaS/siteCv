@@ -1,0 +1,71 @@
+$background: #D0c9EA;
+$border: #602437;
+$block-background: #6b5677ad; /* faute de mieux :( */
+$darkviolet: #522E38; /* flèches et mid div index */
+$title: #130124;
+$bg-color-alt: #813867;
+$bg-gradient: linear-gradient(315deg, #813867 0%, #ebebeb 74%);
+
+@import "@fortawesome/fontawesome-free/css/all.css";
+@import "./style/font.scss";
+@import "./style/index.scss";
+@import "./style/parcours.scss";
+@import "./style/contact.scss";
+@import "./style/projets.scss";
+@import "./style/skills.scss";
+
+
+
+// général à tout le site
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./img/painting-tradition-trees-sketch-mountain.png);
+  background-size:cover;
+  padding: 0;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  //overflow: hidden;
+}
+
+section {
+  width: 100vw;
+  height: 100vh;
+  //border: solid red 1px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit; /* garde la couleur initiale */ 
+}
+
+.direction {
+  color: $darkviolet;
+  font-size: 32px;
+}
+
+.direction:hover {
+  transition: 0.5s;
+    transform: rotateY(360deg);
+}
+
+.container {
+  width: 300vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.title-bottom {
+  height: 15%;
+  font-family: "AA Typewriter";
+  font-size: 32px;
+  font-weight: bold;
+  color: $title;
+  text-align: right;
+  padding-right: 20px;
+}
+
+

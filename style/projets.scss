@@ -1,0 +1,50 @@
+.section-header-proj {
+    display: flex;
+    padding: 20px 20px 100px 20px; // top - right - bottom - left
+    height: 15%;
+    position: relative;
+}
+
+.nav-arrow-up {
+    position: absolute;
+    left: 49%; 
+}
+
+.switch-language {
+    position: absolute;
+    right: 20px;
+}
+
+.projects-main{
+    display: flex;
+    padding: 50px;
+    justify-content: space-around;
+}
+.projects-menu {
+    border: solid 1px black;
+    width: 150px;
+    margin-left: -300px;
+    background-color: #6b5677ad;
+}
+
+.project-name
+{
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 1px solid $border;
+    padding: 5px;
+}
+
+.project-name:hover
+{
+    background-color: $darkviolet;
+}
+
+.video {
+    border: solid 1px black;
+    margin-left: -300px;
+}
+
+.details {
+    text-align: center;
+}

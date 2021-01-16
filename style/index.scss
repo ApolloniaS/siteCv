@@ -1,0 +1,99 @@
+// css spécifique aux classes dans la section index
+
+.index {
+  display: flex;
+  position: relative;
+}
+
+.left-part, .right-part {
+  width: 50%;
+  position: relative;
+}
+
+.left-part {
+  border-right: solid $border 2px;
+}
+
+// flèches du haut:
+// background & parcours
+.left-top-arrow, .right-top-arrow {
+  padding-top: 20px;
+}
+
+.left-top-arrow {
+  text-align: right;
+  padding-right: 20px;
+}
+
+.right-top-arrow {
+  text-align: left;
+  padding-left: 20px;
+}
+
+// flèches du milieu:
+// skills & contact
+.left-middle-arrow, .right-middle-arrow {
+  position: absolute;
+  padding-left: 20px;
+  top: 45%;
+}
+
+.left-middle-arrow {
+  left: 0;
+}
+
+.right-middle-arrow {
+  right: 0;
+}
+
+// flèches du milieu:
+// skills & contact
+.left-bottom-arrow, .right-bottom-arrow {
+  padding-bottom: 20px;
+  position: absolute;
+  bottom: 0;
+}
+
+.left-bottom-arrow {
+  padding-right: 20px;
+  right: 0;
+}
+
+.right-bottom-arrow {
+  padding-left: 20px;
+  left: 0;
+}
+
+// carré flottant au milieu
+.floating-box-middle {
+  position: absolute;
+  font-family: "AA Typewriter";
+  background-color: $darkviolet;
+  color: white;
+  text-align: center;
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+// cadres de présentation
+.description {
+  // deux class de descriptions car ombre pas du même côté ??
+  position: absolute;
+  padding: 10px;
+  width: 50%;
+  height: 25%;
+  border: solid $border 1px;
+  background-color: $bg-color-alt;
+  background-image: $bg-gradient;
+  box-shadow: 5px 5px 5px black;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}

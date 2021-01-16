@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'AA Typewriter';
+    src: url('AATypewriter.woff2') format('woff2'),
+        url('AATypewriter.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
