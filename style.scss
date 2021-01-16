@@ -27,7 +27,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  //overflow: hidden;
+  overflow: hidden;
 }
 
 section {
@@ -68,3 +68,15 @@ a {
   padding-right: 20px;
 }
 
+hr {
+  border: $border 1px solid;
+}
+
+.copyInfoBottom {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  font-size: 10px;
+  text-transform: uppercase;
+}
