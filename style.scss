@@ -48,7 +48,7 @@ a {
 
 .direction:hover {
   transition: 0.5s;
-    transform: rotateY(360deg);
+  transform: rotateY(360deg) scale(1.5);
 }
 
 .container {
@@ -80,15 +80,6 @@ hr {
   text-align: center;
   position: absolute;
   bottom: 0;
-  font-size: 10px;
-  text-transform: uppercase;
-}
-
-.copyInfoTop {
-  width: 100%;
-  text-align: center;
-  position: absolute;
-  top: 0;
   font-size: 10px;
   text-transform: uppercase;
 }

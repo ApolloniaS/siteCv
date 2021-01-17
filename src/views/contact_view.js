@@ -54,8 +54,8 @@ export function generateContact() {
   <div class="title-bottom">CONTACT__</div>
   `;
 
-  const copyInfo = document.querySelector('.copyInfoBottom');
-  displayCopyright(copyInfo);
+  const copyInfo = document.querySelectorAll('.copyInfoBottom');
+  displayCopyright(copyInfo[0]);
 
   // fonction d'envoi du form de contact
   document.querySelector('.submit-btn').addEventListener('click', () => {
