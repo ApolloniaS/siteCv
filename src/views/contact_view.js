@@ -55,7 +55,7 @@ export function generateContact() {
   `;
 
   const copyInfo = document.querySelectorAll('.copyInfoBottom');
-  displayCopyright(copyInfo[0]);
+  displayCopyright(copyInfo[1]);
 
   // fonction d'envoi du form de contact
   document.querySelector('.submit-btn').addEventListener('click', () => {

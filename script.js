@@ -71,3 +71,5 @@ for (const index of indexes) {
     scrollToSection('index');
   });
 }
+
+console.log(document.querySelectorAll('.copyInfoBottom'));

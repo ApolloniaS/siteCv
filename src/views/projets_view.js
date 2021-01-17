@@ -23,7 +23,7 @@ export function generateProjets() {
   `;
 
   const copyInfo = document.querySelectorAll('.copyInfoBottom');
-  displayCopyright(copyInfo[1]);
+  displayCopyright(copyInfo[2]);
 
   // génération du menu
   // et du projet correspondant
