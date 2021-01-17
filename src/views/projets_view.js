@@ -1,5 +1,37 @@
+import { getContainers, displayCopyright } from '../data/custom-function';
+import { projects } from '../data/projects-data';
+
 export function generateProjets() {
-  const containers = document.querySelectorAll('.container');
-  const background = containers[3];
-  background.innerHTML += '<section class="projets" id="projets">projets</section>';
+  getContainers(3, 'projetsContainer', 'projets');
+
+  // squelette de la page projets FR
+  const projets = document.querySelector('.projets');
+  projets.innerHTML += `
+  <div class="copyInfoTop"></div>
+  <div class="projects-main">
+    <div class="projects-menu"></div>            
+    <div class="video"></div>
+  </div>
+  <div class="details"></div>
+  `;
+
+  const copyInfo = document.querySelector('.copyInfoTop');
+  displayCopyright(copyInfo);
+
+  const projectsMenu = document.querySelector('.projects-menu');
+  const video = document.querySelector('.video');
+  const details = document.querySelector('.details');
+
+  for (let i = 0; i < projects.length; i++) {
+    projectsMenu.innerHTML += `<div class="project-name">${projects[i].name}</div>`;
+  }
+
+  const projectNames = document.querySelectorAll('.project-name');
+
+  for (let j = 0; j < projectNames.length; j++) {
+    projectNames[j].addEventListener('click', () => {
+      video.innerHTML = `<img src="img/${projects[j].preview}">`;
+      details.innerHTML = `Nom: ${projects[j].name}<br/>Technologies utilisées: ${projects[j].language}<br/>Description: ${projects[j].description}`;
+    });
+  }
 }
