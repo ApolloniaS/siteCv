@@ -31,6 +31,7 @@ body {
 }
 
 section {
+  position: relative;
   width: 100vw;
   height: 100vh;
   //border: solid red 1px;
@@ -52,10 +53,10 @@ a {
 }
 
 .container {
-  width: 300vw;
-  height: 100vh;
   display: flex;
   justify-content: center;
+  width: 300vw;
+  height: 100vh;
 }
 
 .title-bottom {

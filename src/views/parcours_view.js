@@ -1,6 +1,6 @@
 import { experience } from '../data/background-data';
+import { translations } from '../data/translated-data';
 import { getContainers, displayCopyright } from '../data/custom-function';
-// import { experience } from '../data/background-data';
 
 export function generateParcours() {
   getContainers(1, 'parcoursContainer', 'parcours');
@@ -16,7 +16,7 @@ export function generateParcours() {
     </div>
   </div>
   <div class="legend">
-    <div class="txt-legend">Passez le curseur de la souris sur un point pour découvrir mon expérience :)&nbsp;!</div>
+    <div class="txt-legend">${translations[0].fr}</div>
     <div class="dot-box">
       <i class="fas fa-circle dot-xp"></i>Expérience professionnelle
       <i class="fas fa-circle dot-study"></i>Études
@@ -27,12 +27,12 @@ export function generateParcours() {
   </div>
   `;
 
-  const copyInfo = document.querySelector('.copyInfoTop');
-  displayCopyright(copyInfo);
+  const copyInfo = document.querySelectorAll('.copyInfoTop');
+  displayCopyright(copyInfo[1]);
 
   // switch FR -> EN
-  const switchToEN = document.querySelectorAll('.switch-language');
-  switchToEN[0].addEventListener('click', () => {
+  const switchLanguage = document.querySelectorAll('.switch-language');
+  switchLanguage[1].addEventListener('click', () => {
     window.location = '#background';
   });
 

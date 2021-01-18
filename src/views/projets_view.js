@@ -45,8 +45,8 @@ export function generateProjets() {
   }
 
   // switch FR -> EN
-  const switchToEN = document.querySelectorAll('.switch-language');
-  switchToEN[1].addEventListener('click', () => {
+  const switchLanguage = document.querySelectorAll('.switch-language');
+  switchLanguage[2].addEventListener('click', () => {
     window.location = '#projects';
   });
 }
