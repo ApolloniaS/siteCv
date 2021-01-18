@@ -32,6 +32,7 @@ export function generateSkills() {
       <div class="subtab-content back">
         <i class="fab fa-python skills-icon"></i>&nbsp; Python<br/>
         <i class="fas fa-question-circle skills-icon"></i>&nbsp; C#<br/>
+        <i class="fab fa-java skills-icon"></i>&nbsp; Java<br />
         <i class="fab fa-js-square skills-icon"></i>&nbsp; JavaScript<br/>
         <i class="fab fa-php skills-icon"></i>&nbsp; PHP<br/>
         <i class="fas fa-question-circle skills-icon"></i>&nbsp; ASP.NET<br/>

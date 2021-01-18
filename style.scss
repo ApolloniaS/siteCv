@@ -70,6 +70,18 @@ a {
   padding-right: 20px;
 }
 
+.title-top {
+  position: absolute;
+  top: 5%;
+  right: 0;
+  height: 10%;
+  font-family: "AA Typewriter";
+  font-size: 32px;
+  font-weight: bold;
+  color: $title;
+  padding-right: 20px;
+}
+
 hr {
   border: $border 1px solid;
 }
@@ -83,3 +95,30 @@ hr {
   font-size: 10px;
   text-transform: uppercase;
 }
+
+.copyInfoTop {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.switch-language {
+  position: absolute;
+  top: 3%;
+  right: 1%;
+  border: 1px solid $border;
+  background-image: $bg-gradient;
+  background-color: $bg-gradient;
+  padding: 5px;
+  transition: all .2s ease-in-out;
+}
+
+.switch-language:hover
+{
+    transform: scale(1.1);
+}
+
+

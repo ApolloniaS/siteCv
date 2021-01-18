@@ -9,22 +9,6 @@
   right: 50%;
 }
 
-.switch-language {
-  position: absolute;
-  top: 3%;
-  right: 1%;
-  border: 1px solid $border;
-  background-image: $bg-gradient;
-  background-color: $bg-gradient;
-  padding: 5px;
-  transition: all .2s ease-in-out;
-}
-
-.switch-language:hover
-{
-    transform: scale(1.1);
-}
-
 .projects-main {
   display: flex;
   padding: 50px;
@@ -35,7 +19,7 @@
   width: 150px;
   margin-left: -300px;
   background-image: $bg-gradient;
-  background-color: $bg-gradient;
+  background-color: $bg-color-alt;
   position: absolute;
   top: 20%;
   left: 30%;
