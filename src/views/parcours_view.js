@@ -58,18 +58,14 @@ export function generateParcours() {
     }); */
     }
   }
-  renderParcours('en');
-  /* // switch langues
+  renderParcours('fr');
+  // switch langues
   const switchLanguage = document.querySelectorAll('.switch-language');
   switchLanguage[1].addEventListener('click', () => {
-    renderParcours('fr');
-    console.log(switchLanguage[1].innerHTML);
-    if (switchLanguage[1].innerHTML === 'English') { renderParcours('en'); }
-    window.location = '#parcours';
-    // window.location = '#background';
-  }); */
+    window.location = '#background';
+  });
 
-  document.body.addEventListener('click', (e) => {
+  /* document.body.addEventListener('click', (e) => {
     console.log(e.target.className === 'switch-language current-en');
     if (e.target.className === 'switch-language current-en') {
       renderParcours('fr');
@@ -77,5 +73,5 @@ export function generateParcours() {
       renderParcours('en');
     }
     window.location = '#parcours';
-  });
+  }); */
 }
