@@ -11,146 +11,106 @@
   right: 50%;
 }
   
-  
-  /* .timeline {
-    text-align: center;
-    padding: 100px 25px; // top/bottom - right/left
-    height: 35%;
-  } */
+.timeline-container {
+  display: block;
+  position: absolute;
+  top: 40%;
+  color: $darkviolet;
+  text-align: center;
+  width: 100%;
+  /* height: 100%; */
+}
 
-  .container-timeline {
-    position: relative;
-    color: black;
-    text-align: center;
-    margin: 0 auto;
-    display: block;
-    width: 100%;
-    height: 240px;
-  }
-  
-  .line {
-    /* dessin de la ligne */
-    display: block;
-    width: 75%;
-    height: 5px;
-    background: black;
-    position: absolute;
-    top: 49%;
-    left: 15%;
-  }
-  
-  .container-timeline .timeline {
-    height: 100%; /* ?? */
-  }
-  
-  .dot-event {
-    width: 6%;
-    display: inline-block;
-    position: relative;
-    height: 100%;
-    margin-right: 70px;
-    transition: width 5s;
-    z-index: 1;
-  }
-  
-  .dot-event > span {
-    height: 32px;
-    display: block;
-    font-weight: bold;
-    position: absolute;
-    top: 50%;
-    margin-top: -8px;
-    width: 100%;
-    cursor: pointer;
-    
-  }
-  
-  .dot-event > span::before {
-    content: "";
-    display: block;
-    width: 16px;
-    height: 16px;
-    background: #7b2cbf;
-    margin: 0 auto 8px;
-    border-radius: 50%;
-  }
-  
-  .card {
-    display: none;
-    position: absolute;
-    left: 0;
-    top: 20%;
-    margin-top: -50%;
-    width: 175px;
-    height: 100px;
-  }
-  
-  .card a {
-    display: block;
-    width: 100%;
-    height: 100%;
-  }
-  
-  .card a span {
-    position: absolute;
-    width: 250%;
-    margin-left: -72%;
-    bottom: -40px;
-    left: 0;
-    font-size: 10px;
-    text-decoration: none;
-    white-space: nowrap;
-    color: #7b2cbf;
-    font-weight: bold;
-    
-  }
-  
-  .card a span::after {
-    margin-left: 5px;
-    
-  }
-  
-  .zone-test {
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    max-height: 100%;
-    max-width: 100%;
-  }
-  
-  dot-event.active {
-    width: 10%;    
-  }
-  
-  .dot-event.active .card {
-    display: block;
-  }
+.line {
+  display: block;
+  position: absolute;
+  background: $darkviolet;
+  width: 90%;
+  height: 5px;
+  top: 70%;
+  left: 5%;
+}
 
+/* .timeline-container .timeline-area {
+  /* height: 100%; */
+
+.dot {
+  position: relative;
+  display: inline-block;
+  width: 3%;
+  margin-right: 5%;
+  transition: width 1s;
+  height: 100%;
+}
+
+.date {
+  position: absolute;
+  display: block;
+  font-weight: bold;
+  margin-top: -10%;
+  width: 100%;
+}
+
+.date:before {
+  content: "";
+  display: block;
+  width: 15px;
+  height: 15px;
+  margin: 0 auto 8px;
+  border-radius: 50%;
+}
+
+.color-work:before {
+  background: $background;
+}
+
+.color-study:before {
+  background: $block-background;
+}
+
+.info-card {
+  position: absolute;
+  display: none;
+  margin-top: -60%;
+  width: 100%; /*ajuster*/
+}
+
+.info-card img {
+ max-width: 100%; /*ajuster*/
+}
+
+.dot.active {
+  width: 10%;
+}
+
+.dot.active .info-card {
+  display: block;
+}
   
-  .legend {
-    margin: auto;
-    width: 50%;
-    font-size: 20px;
-    height: 35%;
-  }
+.legend {
+  position: absolute;
+  bottom: 20%;
+  left: 35%;
+}
+
+.dot-box {
+  text-align: center;
+}
+
+.dot-xp, .dot-study {
+  padding: 0 1% 0 5%;
+  font-size: 12px;
+}
+
+.dot-xp {
+  color: $background;
+}
+
+.dot-study {
+  color: $block-background;
+}
   
-  .dot-xp,
-  .dot-study {
-    padding-right: 5px;
-    font-size: 14px;
-  }
-  .dot-study {
-    padding-left: 100px;
-    color: #7b2cbf;
-  }
-  .dot-xp {
-    color: #9d4edd;
-  }
   
-  .time-line-cards {
-    width: 100%;
-    height: 100%;
-  }
+  
   
   // --
