@@ -1,5 +1,5 @@
 import { getContainers, displayCopyright } from '../data/custom-function';
-import { translations } from '../data/translated-data';
+// import { translations } from '../data/translated-data';
 
 export function generateBackground() {
   getContainers(0, 'backgroundContainer', 'background');
@@ -9,13 +9,6 @@ export function generateBackground() {
   <div class="copyInfoTop"></div>
   <div class="switch-language">Français</div>
   <div class="title-bottom">BACKGROUND__</div>
-  <div class="legend">
-    <div class="txt-legend">${translations[0].en}</div>
-    <div class="dot-box">
-      <i class="fas fa-circle dot-xp"></i>Expérience professionnelle
-      <i class="fas fa-circle dot-study"></i>Études
-    </div>
-  </div>
   <div class="nav-arrow-down">
     <a href="#index"><i class="fas fa-arrow-down direction"></i></a>
   </div>

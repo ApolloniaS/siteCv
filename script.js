@@ -64,12 +64,9 @@ document.querySelector('a[href="#projets"]').addEventListener('click', (e) => {
 });
 
 const indexes = document.querySelectorAll('a[href="#index"]');
-console.log(indexes);
 for (const index of indexes) {
   index.addEventListener('click', (e) => {
     e.preventDefault();
     scrollToSection('index');
   });
 }
-
-console.log(document.querySelectorAll('.copyInfoBottom'));
