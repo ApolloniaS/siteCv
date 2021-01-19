@@ -1,7 +1,7 @@
 import { getContainers, displayCopyright } from '../data/custom-function';
 
 export function generateSkills() {
-  getContainers(2, 'skillsContainer', 'skills');
+  getContainers(1, 'skillsContainer', 'skills');
 
   // squelette de la page skills
   const skills = document.querySelector('.skills');

@@ -89,8 +89,10 @@
   
 .legend {
   position: absolute;
+  width: 50%;
   bottom: 20%;
-  left: 35%;
+  left: 25%;
+  text-align: center;
 }
 
 .dot-box {
@@ -108,4 +110,8 @@
 
 .dot-study {
   color: $block-background;
+}
+
+.link-CV {
+  padding-top: 1%;
 }

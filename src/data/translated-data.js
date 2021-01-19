@@ -1,4 +1,4 @@
-export const translations = [
+export const translationsBG = [
   {
     id: 0,
     name: 'change-langage',
@@ -28,5 +28,11 @@ export const translations = [
     name: 'background-3',
     fr: 'Études',
     en: 'Studies',
+  },
+  {
+    id: 4,
+    name: 'background-4',
+    fr: 'Ou cliquez ici pour télécharger mon CV',
+    en: 'Or click here to download my resume',
   },
 ];

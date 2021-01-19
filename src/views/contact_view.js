@@ -1,7 +1,7 @@
 import { getContainers, displayCopyright } from '../data/custom-function';
 
 export function generateContact() {
-  getContainers(2, 'contactContainer', 'contact');
+  getContainers(1, 'contactContainer', 'contact');
 
   // squelette de l'index
   const contact = document.querySelector('.contact');

@@ -1,11 +1,9 @@
 import './style.scss';
-import { generateBackground } from './src/views/background_view';
 import { generateParcours } from './src/views/parcours_view';
 import { generateSkills } from './src/views/skills_view';
 import { generateIndex } from './src/views/index_view';
 import { generateContact } from './src/views/contact_view';
 import { generateProjets } from './src/views/projets_view';
-import { generateProjects } from './src/views/projects_view';
 
 const site = document.querySelector('#site');
 
@@ -17,13 +15,11 @@ for (let i = 0; i < 5; i++) {
   main.innerHTML += "<div class='container'></div>";
 }
 
-generateBackground();
 generateParcours();
 generateSkills();
 generateIndex();
 generateContact();
 generateProjets();
-generateProjects();
 
 // page charge toujours sur 'index'
 window.location = '#index';

@@ -1,7 +1,7 @@
 import { getContainers } from '../data/custom-function';
 
 export function generateIndex() {
-  getContainers(2, 'contactContainer', 'index');
+  getContainers(1, 'contactContainer', 'index');
 
   // squelette de l'index
   const index = document.querySelector('.index');

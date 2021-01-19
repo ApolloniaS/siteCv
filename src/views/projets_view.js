@@ -2,7 +2,7 @@ import { getContainers, displayCopyright } from '../data/custom-function';
 import { projects } from '../data/projects-data';
 
 export function generateProjets() {
-  getContainers(3, 'projetsContainer', 'projets');
+  getContainers(2, 'projetsContainer', 'projets');
 
   // squelette de la page projets FR
   const projets = document.querySelector('.projets');
@@ -46,7 +46,7 @@ export function generateProjets() {
 
   // switch FR -> EN
   const switchLanguage = document.querySelectorAll('.switch-language');
-  switchLanguage[2].addEventListener('click', () => {
+  switchLanguage[1].addEventListener('click', () => {
     window.location = '#projects';
   });
 }
