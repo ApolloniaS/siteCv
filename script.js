@@ -11,7 +11,7 @@ site.innerHTML += '<main></main>';
 const main = document.querySelector('main');
 
 // création des 5 containers principaux
-for (let i = 0; i < 5; i++) {
+for (let i = 0; i < 3; i++) {
   main.innerHTML += "<div class='container'></div>";
 }
 

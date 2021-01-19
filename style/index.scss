@@ -7,6 +7,8 @@
 
 .left-part, .right-part {
   width: 50%;
+  height: 78%;
+  top: 11%;
   position: relative;
 }
 
@@ -14,28 +16,13 @@
   border-right: dotted $border 2px;
 }
 
-// flèches du haut:
-// background & parcours
-.left-top-arrow, .right-top-arrow {
-  padding-top: 20px;
-}
-
-.left-top-arrow {
-  text-align: right;
-  padding-right: 20px;
-}
-
-.right-top-arrow {
-  text-align: left;
-  padding-left: 20px;
-}
-
 // flèches du milieu:
 // skills & contact
 .left-middle-arrow, .right-middle-arrow {
   position: absolute;
   padding-left: 20px;
-  top: 45%;
+  top: 44%;
+  /* text-align: center; */
 }
 
 .left-middle-arrow {
@@ -46,22 +33,22 @@
   right: 0;
 }
 
-// flèches du milieu:
-// skills & contact
-.left-bottom-arrow, .right-bottom-arrow {
-  padding-bottom: 20px;
+
+// flèches du haut et du bas:
+// parcours & projets
+.bottom-middle-arrow, .top-middle-arrow{
   position: absolute;
+  left: 49%;
+  /* text-align: center; */
+}
+
+.bottom-middle-arrow {
+  padding-bottom: 20px;
   bottom: 0;
 }
 
-.left-bottom-arrow {
-  padding-right: 20px;
-  right: 0;
-}
-
-.right-bottom-arrow {
-  padding-left: 20px;
-  left: 0;
+.top-middle-arrow {
+  padding-top: 20px;
 }
 
 // carré flottant au milieu
@@ -84,9 +71,9 @@
 .description {
   // deux class de descriptions car ombre pas du même côté ??
   position: absolute;
-  padding: 10px;
+  padding: 5px;
   width: 50%;
-  height: 25%;
+  height: 45%;
   border: solid $border 1px;
   background-color: $bg-color-alt;
   background-image: $bg-gradient;
@@ -96,4 +83,5 @@
   right: 0;
   top: 0;
   bottom: 0;
+  text-align: center;
 }

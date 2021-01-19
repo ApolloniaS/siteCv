@@ -48,6 +48,5 @@ export function generateProjets() {
     }
   }
   renderProjets('en');
-
   switchLanguage(renderProjets);
 }

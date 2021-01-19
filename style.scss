@@ -22,8 +22,8 @@ $bg-gradient: linear-gradient(315deg, #813867 0%, #ebebeb 74%);
 }
 
 body {
-  background-image: url(./img/painting-tradition-trees-sketch-mountain.png);
-  background-size:cover;
+  background-image: url(./img/painting-tradition-trees-sketch-mountain2.png);
+  background-repeat: repeat;
   padding: 0;
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -61,7 +61,7 @@ a {
 
 .title-bottom {
   position: absolute;
-  bottom: 0;
+  bottom: 3%;
   right: 0;
   height: 10%;
   font-family: "AA Typewriter";
@@ -94,7 +94,7 @@ hr {
 
 .switch-language {
   position: absolute;
-  top: 5%;
+  top: 7%;
   right: 1%;
   border: 1px solid $border;
   background-image: $bg-gradient;
