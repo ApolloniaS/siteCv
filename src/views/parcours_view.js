@@ -1,6 +1,6 @@
 import { experience } from '../data/background-data';
-import { translationsBG } from '../data/translated-data';
-import { getContainers, displayCopyright } from '../data/custom-function';
+import { translations } from '../data/translated-data';
+import { getContainers, displayCopyright, switchLanguage } from '../data/custom-function';
 
 export function generateParcours() {
   getContainers(0, 'parcoursContainer', 'parcours');
@@ -10,19 +10,19 @@ export function generateParcours() {
     parcours.innerHTML = '';
     parcours.innerHTML += `
     <div class="copyInfoTop"></div>
-    <div class="switch-language current-${lang}">${translationsBG[0][lang]}</div>
-    <div class="title-bottom">${translationsBG[1][lang]}</div>
+    <div class="switch-language current-${lang}">${translations[0][lang]}</div>
+    <div class="title-bottom">${translations[1][lang]}</div>
     <div class="timeline-container">
       <div class="timeline-area">
         <div class="line"></div>
       </div>
     </div>
     <div class="legend">
-      <div class="txt-legend">${translationsBG[2][lang]}</div>
+      <div class="txt-legend">${translations[2][lang]}</div>
       <div class="dot-box">
-        <i class="fas fa-circle dot-xp"></i>${translationsBG[3][lang]}
-        <i class="fas fa-circle dot-study"></i>${translationsBG[4][lang]}
-      <div class="link-CV"><i class="far fa-file"></i>&nbsp; ${translationsBG[5][lang]}</div>
+        <i class="fas fa-circle dot-xp"></i>${translations[3][lang]}
+        <i class="fas fa-circle dot-study"></i>${translations[4][lang]}
+      <div class="link-CV"><i class="far fa-file"></i>&nbsp; ${translations[5][lang]}</div>
       </div>
     </div>
     <div class="nav-arrow-down">
@@ -59,20 +59,7 @@ export function generateParcours() {
     }); */
     }
   }
-  renderParcours('fr');
-  /*   // switch langues
-  const switchLanguage = document.querySelectorAll('.switch-language');
-  switchLanguage[1].addEventListener('click', () => {
-    window.location = '#background';
-  }); */
+  renderParcours('en');
 
-  document.body.addEventListener('click', (e) => {
-    if (e.target.className === 'switch-language current-en') {
-      renderParcours('fr');
-    }
-    if (e.target.className === 'switch-language current-fr') {
-      renderParcours('en');
-    }
-    // window.location = '#parcours';
-  });
+  switchLanguage(renderParcours);
 }

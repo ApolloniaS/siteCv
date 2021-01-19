@@ -7,3 +7,14 @@ export function getContainers(idContainer, nameContainer, nameSection) {
   nameContainer = containers[idContainer];
   nameContainer.innerHTML += `<section class="${nameSection}" id="${nameSection}"></section>`;
 }
+
+export function switchLanguage(renderSection) {
+  document.body.addEventListener('click', (e) => {
+    if (e.target.className === 'switch-language current-en') {
+      renderSection('fr');
+    }
+    if (e.target.className === 'switch-language current-fr') {
+      renderSection('en');
+    }
+  });
+}
