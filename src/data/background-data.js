@@ -1,8 +1,8 @@
 export const experience = [
   {
     type: 'study',
-    date: '2000-2006',
-    card: 'carte-if3.png',
+    date: '2020-2021',
+    card: 'WAD-IF3-copy.png',
   },
   {
     type: 'work',
