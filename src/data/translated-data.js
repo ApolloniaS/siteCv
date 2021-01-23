@@ -14,8 +14,8 @@ export const translations = [
   {
     id: 2,
     name: 'background-1',
-    fr: 'Passez le curseur de la souris sur un point pour découvrir mon expérience :)&nbsp;!',
-    en: 'Put your mouse over a dot to check my experience :)!',
+    fr: 'Passez votre curseur sur un point et découvrez mon expérience&nbsp;!',
+    en: 'Put your mouse over a dot to check my experience!',
   },
   {
     id: 3,

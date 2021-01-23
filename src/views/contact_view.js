@@ -15,31 +15,31 @@ export function generateContact() {
     </a>
   </div>
   <div class="contact-form">
-    <form id="contact-form" method="get" enctype="text/plain">
-      <label>Name/Nom</label><br/>
+    <form id="contact-form" action="https://formspree.io/f/mwkwyqql" method="POST">
+    <label>Name/Nom</label><br/>
       <input
       type="text"
       class="input-name"
-      id="input-name"
+      name="name"
       required
       /><br/>
       <label>Email</label><br />
       <input
       type="text"
       class="input-email"
-      id="input-email"
+      name="_replyto"
       required
       /><br/>
       <label>Object/Objet</label><br />
       <input
       type="text"
       class="input-object"
-      id="input-object"
+      name="object"
       required
       /><br/>
       <label>Message</label><br />
-      <textarea id="user-message"></textarea><br/>
-      <button class="submit-btn" type="button">
+      <textarea class="user-message" name="user-message"></textarea><br/>
+      <button class="submit-btn" type="submit">
       Send/Envoyer
       </button>
     </form>
@@ -56,17 +56,4 @@ export function generateContact() {
 
   const copyInfo = document.querySelectorAll('.copyInfoBottom');
   displayCopyright(copyInfo[1]);
-
-  // fonction d'envoi du form de contact
-  document.querySelector('.submit-btn').addEventListener('click', () => {
-    Email.send({
-      SecureToken: 'db616db8-1b4c-410d-aa5a-94ca2015ff1c',
-      To: 'sorella.apollonia@hotmail.com',
-      From: document.querySelector('.input-email').value,
-      Subject: document.querySelector('.input-object').value,
-      Body: document.querySelector('#user-message').value,
-    }).then(
-      (message) => alert(message),
-    );
-  });
 }

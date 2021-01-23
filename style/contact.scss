@@ -50,6 +50,7 @@ textarea {
 
 .nav-arrow-left{
     position: absolute;
-    padding-left: 20px;
-    top: 45%;  
+    top: 50%;
+    left: 0;  
+    transform: translate(50%, -50%);
 }

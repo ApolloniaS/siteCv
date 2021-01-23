@@ -18,7 +18,7 @@ export function generateParcours() {
       </div>
     </div>
     <div class="legend">
-      <div class="txt-legend">${translations[2][lang]}</div>
+      <div class="txt-legend">${translations[2][lang]}&nbsp;<i class="far fa-smile"></i></div>
       <div class="dot-box">
         <i class="fas fa-circle dot-xp"></i>${translations[3][lang]}
         <i class="fas fa-circle dot-study"></i>${translations[4][lang]}

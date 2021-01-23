@@ -5,9 +5,9 @@
 
 .nav-arrow-down {
   position: absolute;
-  padding-bottom: 20px;
+  left: 50%;
   bottom: 0;
-  left: 49%;
+  transform: translate(-50%,-50%);
 }
   
 .timeline-container {

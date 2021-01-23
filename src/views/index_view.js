@@ -6,24 +6,19 @@ export function generateIndex() {
   // squelette de l'index
   const index = document.querySelector('.index');
   index.innerHTML += `
-  
   <div class="left-part"></div>
   <div class="floating-box-middle"></div>
   <div class="right-part"></div>
-
   <div class="bottom-middle-arrow">
     <a href="#projets">
-      Projets<br />
       <i class="fas fa-arrow-down direction"></i>
     </a>
   </div>
   <div class="top-middle-arrow">
     <a href="#parcours">
       <i class="fas fa-arrow-up direction"></i><br />
-      Parcours
     </a>
   </div>
-
   `;
 
   // remplissage de la partie gauche
@@ -33,7 +28,7 @@ export function generateIndex() {
   <div class="left-middle-arrow">
     <a href="#skills">
       <i class="fas fa-arrow-left direction"></i><br />
-      Skills
+      
     </a>
   </div>
   
@@ -55,7 +50,7 @@ export function generateIndex() {
   <div class="right-middle-arrow">
     <a href="#contact">
       <i class="fas fa-arrow-right direction"></i><br />
-      <span>Contact</span>
+      
       </a>
   </div>
   

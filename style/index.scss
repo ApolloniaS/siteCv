@@ -6,31 +6,28 @@
 }
 
 .left-part, .right-part {
-  width: 50%;
-  height: 78%;
-  top: 11%;
   position: relative;
+  width: 50%;
+  height: 100%;
 }
 
-.left-part {
-  border-right: dotted $border 2px;
-}
 
 // flèches du milieu:
 // skills & contact
 .left-middle-arrow, .right-middle-arrow {
   position: absolute;
-  padding-left: 20px;
-  top: 44%;
-  /* text-align: center; */
+  top: 50%;
 }
 
 .left-middle-arrow {
-  left: 0;
+  left: 4%;
+  transform: translate(-50%,-50%);
+
 }
 
 .right-middle-arrow {
-  right: 0;
+  right: 4%;
+  transform: translate(50%, -50%);
 }
 
 
@@ -38,17 +35,17 @@
 // parcours & projets
 .bottom-middle-arrow, .top-middle-arrow{
   position: absolute;
-  left: 49%;
-  /* text-align: center; */
+  left: 50%;
 }
 
 .bottom-middle-arrow {
-  padding-bottom: 20px;
-  bottom: 0;
+  bottom: 4%;
+  transform: translate(-50%,50%);
 }
 
 .top-middle-arrow {
-  padding-top: 20px;
+  top: 4%;
+  transform: translate(-50%,-50%);
 }
 
 // carré flottant au milieu
