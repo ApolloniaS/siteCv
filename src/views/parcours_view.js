@@ -40,7 +40,7 @@ export function generateParcours() {
     <div class="dot">
       <span class="date ${experience[i].type === 'work' ? 'color-work' : 'color-study'}">${experience[i].date}</span>
       <div class="info-card">
-        <img src="${experience[i].card}" alt=""/>
+        <img src="images/${experience[i].card}" alt=""/>
       </div>
     </div>
   `;
