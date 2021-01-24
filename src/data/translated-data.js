@@ -41,4 +41,16 @@ export const translations = [
     fr: 'Projets__',
     en: 'Projects__',
   },
+  {
+    id: 7,
+    name: 'project-name',
+    fr: 'Nom',
+    en: 'Name',
+  },
+  {
+    id: 8,
+    name: 'projects-technolog',
+    fr: 'Langage',
+    en: 'Language',
+  },
 ];

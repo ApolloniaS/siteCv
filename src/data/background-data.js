@@ -2,56 +2,89 @@ export const experience = [
   {
     type: 'study',
     date: '2020-2021',
-    card: 'carte-if3.png',
+    card: {
+      fr: 'carte-if3-fr.png',
+      en: 'carte-if3.png',
+    },
   },
   {
     type: 'study',
     date: '2021',
-    card: 'carte-java-certif.png',
+    card: {
+      fr: 'carte-java-certif-fr.png',
+      en: 'carte-java-certif.png',
+    },
   },
   {
     type: 'study',
     date: '2019-2020',
-    card: 'carte-java-initiation.png',
+    card: {
+      fr: 'carte-java-initiation-fr.png',
+      en: 'carte-java-initiation.png',
+    },
   },
   {
     type: 'work',
     date: '2017-2020',
-    card: 'carte-freelance-translator.png',
+    card: {
+      fr: 'carte-freelance-translator-fr.png',
+      en: 'carte-freelance-translator.png',
+    },
   },
   {
     type: 'work',
     date: '2017-2018',
-    card: 'carte-english-teacher.png',
+    card: {
+      fr: 'carte-english-teacher-fr.png',
+      en: 'carte-english-teacher.png',
+    },
   },
   {
     type: 'work',
     date: '2016-2017',
-    card: 'carte-talent-manager.png',
+    card: {
+      fr: 'carte-talent-manager-fr.png',
+      en: 'carte-talent-manager.png',
+    },
   },
   {
     type: 'work',
     date: '2016',
-    card: 'carte-parliament-translator.png',
+    card: {
+      fr: 'carte-parliament-translator-fr.png',
+      en: 'carte-parliament-translator.png',
+    },
   },
   {
     type: 'study',
     date: '2014-2015',
-    card: 'carte-nagoya.png',
+    card: {
+      fr: 'carte-nagoya-fr.png',
+      en: 'carte-nagoya.png',
+    },
   },
   {
     type: 'work',
     date: '2014',
-    card: 'carte-millenium.png',
+    card: {
+      fr: 'carte-millenium-fr.png',
+      en: 'carte-millenium.png',
+    },
   },
   {
     type: 'study',
     date: '2011',
-    card: 'carte-shanghai.png',
+    card: {
+      fr: 'carte-shanghai-fr.png',
+      en: 'carte-shanghai.png',
+    },
   },
   {
     type: 'study',
     date: '2009-2014',
-    card: 'carte-isti.png',
+    card: {
+      fr: 'carte-isti-fr.png',
+      en: 'carte-isti.png',
+    },
   },
 ];

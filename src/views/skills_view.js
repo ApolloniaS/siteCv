@@ -54,7 +54,7 @@ export function generateSkills() {
       <div class="subtab-content DB">
         <i class="fas fa-database skills-icon"></i><span class="name-skill">&nbsp; UML</span><br/>
         <i class="fas fa-database skills-icon"></i><span class="name-skill">&nbsp; SQL Language</span><br/>
-        <i class="fas fa-database skills-icon"></i><span class="name-skill">&nbsp; Microsoft SQL Server</span><br/>
+        <i class="fas fa-database skills-icon"></i><span class="name-skill">&nbsp; SQL Server</span><br/>
         <i class="fas fa-database skills-icon"></i><span class="name-skill">&nbsp; MySQL</span><br/>
         <i class="fas fa-database skills-icon"></i><span class="name-skill">&nbsp; phpMyAdmin</span>
       </div>
