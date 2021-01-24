@@ -1,22 +1,22 @@
 export const projects = [
   {
     id: 'project0',
-    name: 'projet 1',
-    preview: 'carte-if3.png',
-    language: 'JS',
+    name: 'DuoCodo',
+    preview: 'project-duocodo.png',
+    language: 'JavaScript',
     description: {
-      fr: 'projet 1 inexistant pour tester',
-      en: 'fake projects 1 to test',
+      fr: 'Projet réalisé dans le cadre du Hackthon d\'Interface3 avec d\'autres stagiaires.<br/>Il s\'agit d\'une application pensée sur mobile dans un premier temps, sous forme de quizz pour débutants souhaitant apprendre à coder.',
+      en: 'Hackathon project for Interface3 with other students.<br/>It\'s a mobile-first app following the idea of a quizz for beginners who\'d like to learn coding.',
     },
   },
   {
     id: 'project1',
-    name: 'projet 2',
-    preview: 'test.png',
-    language: 'C#',
+    name: 'Covid killer',
+    preview: 'project-covid-killer.png',
+    language: 'JavaScript',
     description: {
-      fr: 'projet 2 inexistant pour tester',
-      en: 'fake projects 2 to test',
+      fr: 'Projet individuel réalisé dans le cadre de l\'épreuve JavaScript d\'Interface3. Site de commande de vaccins Covid.',
+      en: 'Solo project done for the JavaScript test at Interface3. Site for booking Covid vaccines.',
     },
   },
   {

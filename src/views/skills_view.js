@@ -15,44 +15,48 @@ export function generateSkills() {
     <div class="skill-tab">
       <div class="subtab-title front">Front-end</div>
       <div class="subtab-content front">
-        <i class="fab fa-html5 skills-icon"></i>&nbsp; HTML<br/>
-        <i class="fab fa-css3-alt skills-icon"></i>&nbsp; CSS<br/>
-        <i class="fas fa-question-circle skills-icon"></i>&nbsp; jQuery<br/>
-        <i class="fas fa-question-circle skills-icon"></i>&nbsp; XML/XSLT<br/>
-        <i class="fas fa-question-circle skills-icon"></i>&nbsp; AJAX<br/>
-        <i class="fas fa-question-circle skills-icon"></i>&nbsp; Responsive Web Design<br/>
-        <i class="fas fa-question-circle skills-icon"></i>&nbsp; Normes W3C<br/>
-        <i class="fab fa-wordpress skills-icon"></i>&nbsp; Wordpress<br/>
-        <i class="fab fa-drupal skills-icon"></i>&nbsp; Drupal
+        <i class="fab fa-html5 skills-icon"></i><span class="name-skill">&nbsp; HTML</span><br/>
+        <i class="fab fa-css3-alt skills-icon"></i><span class="name-skill">&nbsp; CSS</span><br/>
+        <i class="fas fa-code skills-icon"></i><span class="name-skill">&nbsp; jQuery</span><br/>
+        <i class="fas fa-code skills-icon"></i><span class="name-skill">&nbsp; XML/XSLT</span><br/>
+        <i class="fas fa-code skills-icon"></i><span class="name-skill">&nbsp; AJAX</span><br/>
+        <i class="fas fa-file-alt skills-icon"></i><span class="name-skill">&nbsp; Responsive Design</span><br/>
+        <i class="fas fa-file-alt skills-icon"></i><span class="name-skill">&nbsp; Normes W3C</span><br/>
+        <i class="fab fa-wordpress skills-icon"></i><span class="name-skill">&nbsp; Wordpress</span><br/>
+        <i class="fab fa-drupal skills-icon"></i><span class="name-skill">&nbsp; Drupal</span>
       </div>
     </div>
     
     <div class="skill-tab">
       <div class="subtab-title back">Back-end</div>
       <div class="subtab-content back">
-        <i class="fab fa-python skills-icon"></i>&nbsp; Python<br/>
-        <i class="fas fa-question-circle skills-icon"></i>&nbsp; C#<br/>
-        <i class="fab fa-java skills-icon"></i>&nbsp; Java<br />
-        <i class="fab fa-js-square skills-icon"></i>&nbsp; JavaScript<br/>
-        <i class="fab fa-php skills-icon"></i>&nbsp; PHP<br/>
-        <i class="fas fa-question-circle skills-icon"></i>&nbsp; ASP.NET<br/>
-        <i class="fab fa-symfony skills-icon"></i>&nbsp; Symfony<br/>
-        <i class="fab fa-angular skills-icon"></i>&nbsp; Angular JS<br/>
-        <i class="fab fa-node-js skills-icon"></i>&nbsp; Node JS<br/>
-        <i class="fab fa-github skills-icon"></i>&nbsp; Github<br/>
-        <i class="fas fa-question-circle skills-icon"></i>&nbsp; IIS<br/>
-        <i class="fas fa-question-circle skills-icon"></i>&nbsp; Apache
+        <i class="fab fa-python skills-icon"></i><span class="name-skill">&nbsp; Python</span><br/>
+        <i class="fas fa-code skills-icon"></i><span class="name-skill">&nbsp; C#</span><br/>
+        <i class="fab fa-java skills-icon"></i><span class="name-skill">&nbsp; Java</span><br/>
+        <i class="fab fa-js-square skills-icon"></i><span class="name-skill">&nbsp; JavaScript</span><br/>
+        <i class="fab fa-php skills-icon"></i><span class="name-skill">&nbsp; PHP</span><br/>
+        <i class="fas fa-code skills-icon"></i><span class="name-skill">&nbsp; ASP.NET</span><br/>
+        <i class="fab fa-symfony skills-icon"></i><span class="name-skill">&nbsp; Symfony</span><br/>
+        <i class="fab fa-angular skills-icon"></i><span class="name-skill">&nbsp; Angular</span><br/>
+        <i class="fab fa-node-js skills-icon"></i><span class="name-skill">&nbsp; Node JS</span><br/>
+        <i class="fab fa-github skills-icon"></i><span class="name-skill">&nbsp; Github</span><br/>
+        <i class="fas fa-server skills-icon"></i><span class="name-skill">&nbsp; IIS</span><br/>
+        <i class="fas fa-server skills-icon"></i><span class="name-skill">&nbsp; Apache</span><br/>
+
+        
+        
+        
       </div>
     </div>
 
     <div class="skill-tab">
       <div class="subtab-title DB">Databases<br/>Bases de données</div>
       <div class="subtab-content DB">
-        <i class="fas fa-question-circle skills-icon"></i>&nbsp; UML<br/>
-        <i class="fas fa-question-circle skills-icon"></i>&nbsp; Langage SQL<br/>
-        <i class="fas fa-question-circle skills-icon"></i>&nbsp; Microsoft SQL Server<br/>
-        <i class="fas fa-question-circle skills-icon"></i>&nbsp; MySQL<br/>
-        <i class="fas fa-question-circle skills-icon"></i>&nbsp; phpMyAdmin
+        <i class="fas fa-database skills-icon"></i><span class="name-skill">&nbsp; UML</span><br/>
+        <i class="fas fa-database skills-icon"></i><span class="name-skill">&nbsp; SQL Language</span><br/>
+        <i class="fas fa-database skills-icon"></i><span class="name-skill">&nbsp; Microsoft SQL Server</span><br/>
+        <i class="fas fa-database skills-icon"></i><span class="name-skill">&nbsp; MySQL</span><br/>
+        <i class="fas fa-database skills-icon"></i><span class="name-skill">&nbsp; phpMyAdmin</span>
       </div>
     </div>
             

@@ -30,6 +30,7 @@
 }
 
 .subtab-content {
+  position: relative;
   height: 85%;
   padding-top: 5%;
   padding-left: 5%;
@@ -40,9 +41,16 @@
 }
 
 .skills-icon {
-  font-size: 18px;
+  font-size: 22px;
   padding: 5px 0;
   color: $darkviolet;
+}
+
+.name-skill
+{
+  position: absolute;
+  padding-top: 2%;
+  left: 20%;
 }
 
 .nav-arrow-right {
