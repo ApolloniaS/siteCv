@@ -3,82 +3,122 @@
 .index {
   display: flex;
   position: relative;
+  justify-content: space-between;
 }
 
-.left-part, .right-part {
-  position: relative;
-  width: 50%;
+.left-part,
+.right-part {
+  width: 12.5%;
   height: 100%;
 }
 
+.right-part span,
+.left-part span {
+  position: absolute;
+  top: 53%;
+}
+
+.left-part span {
+  left: 2%;
+}
+
+.right-part span {
+  right: 2%;
+}
+
+.top-part,
+.bottom-part {
+  position: absolute;
+  width: 100%;
+  height: 25%;
+}
+
+.top-part {
+  top: 0;
+}
+
+.bottom-part {
+  bottom: 0;
+}
+
+.top-part span,
+.bottom-part span {
+  position: absolute;
+  left: 50%;
+}
+
+.bottom-part span {
+  transform: translate(-50%,50%);
+  bottom: 40%;
+}
+
+.top-part span {
+  transform: translate(-50%,50%);
+  top: 25%;
+}
+
+/* .top-part span, .bottom-part span{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,50%);
+} */
 
 // flèches du milieu:
 // skills & contact
-.left-middle-arrow, .right-middle-arrow {
+.left-middle-arrow,
+.right-middle-arrow {
   position: absolute;
   top: 50%;
 }
 
 .left-middle-arrow {
-  left: 4%;
-  transform: translate(-50%,-50%);
-
+  left: 3%;
+  transform: translate(-50%, -50%);
 }
 
 .right-middle-arrow {
-  right: 4%;
+  right: 3%;
   transform: translate(50%, -50%);
 }
 
-
 // flèches du haut et du bas:
 // parcours & projets
-.bottom-middle-arrow, .top-middle-arrow{
+.bottom-middle-arrow,
+.top-middle-arrow {
   position: absolute;
   left: 50%;
 }
 
 .bottom-middle-arrow {
-  bottom: 4%;
-  transform: translate(-50%,50%);
+  bottom: 3%;
+  transform: translate(-50%, -50%);
 }
 
 .top-middle-arrow {
-  top: 4%;
-  transform: translate(-50%,-50%);
+  top: 3%;
+  transform: translate(-50%, 50%);
 }
 
 // carré flottant au milieu
 .floating-box-middle {
+  border: 1px solid black;
   position: absolute;
-  font-family: "AA Typewriter";
   background-color: $darkviolet;
-  color: white;
-  text-align: center;
-  width: 150px;
-  height: 150px;
+  padding-top: 1%;
+  padding-left: 1%;
+  width: 75%;
+  height: 50%;
   margin: auto;
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
+  overflow: hidden;
 }
 
-// cadres de présentation
-.description {
-  // deux class de descriptions car ombre pas du même côté ??
+.avatar {
   position: absolute;
-  padding: 5px;
-  width: 50%;
-  height: 45%;
-  border: solid $border 1px;
-  background-color: $bg-color-alt;
-  background-image: $bg-gradient;
-  box-shadow: 5px 5px 5px black;
-  margin: auto;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  text-align: center;
+  width: 20%;
+  bottom: -1px;
+  right: -1px;
 }

@@ -46,11 +46,37 @@
   color: $darkviolet;
 }
 
-.name-skill
-{
+.name-skill {
   position: absolute;
-  padding-top: 2%;
+  padding-top: 3%;
   left: 20%;
+}
+
+.language-tab, .other-computer-skills{
+  position: relative;
+  margin-bottom: 10%;
+}
+
+.skills-language, .skills-other {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  color: $darkviolet;
+  font-size: 30px;
+}
+
+.skills-other{
+  top: 0;
+}
+
+.skills-language{
+  top: -10%;
+}
+.flags
+{
+  border-radius: 50%;
+  width: 10%;
+  margin-top: 5%;
 }
 
 .nav-arrow-right {

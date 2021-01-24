@@ -63,7 +63,19 @@ export function generateSkills() {
     <div class="skill-tab">
       <div class="subtab-title others">Others<br/>Autres</div>
       <div class="subtab-content others">
-        blabla others
+        <div class="language-tab">
+          <i class="fas fa-language skills-language"></i>
+          <br><img class="flags" src="images/flag-fr.png" alt=""><a title ="French"><span class="name-skill">&nbsp;Français</span></a> 
+          <br><img class="flags" src="images/flag-en.png" alt=""><a title ="Anglais"><span class="name-skill">&nbsp;English </span></a>
+          <br><img class="flags" src="images/flag-it.png" alt=""><a title ="Italian/Italien"><span class="name-skill">&nbsp;Italiano </span></a>
+          <br><img class="flags" src="images/flag-jp.png" alt=""><a title ="Japanese/Japonais"><span class="name-skill">&nbsp;日本語 </span></a>
+          <br><img class="flags" src="images/flag-zh.png" alt=""><a title ="Mandarin Chinese/Chinois mandarin"><span class="name-skill">&nbsp;中文 </span></a>
+        </div>
+        <div class="other-computer-skills">
+          <i class="fas fa-laptop skills-other"></i><br/>
+          <br><i class="fas fa-file-word skills-icon"></i><span class="name-skill">&nbsp; Microsft Office</span><br/>
+          <br><i class="fas fa-cat skills-icon"></i><span class="name-skill"><a title ="Outils de TAO">&nbsp; CAT tools (Trados, MemoQ)</a></span><br/>
+        </div>
       </div>
     </div>
   </div>
