@@ -20,7 +20,7 @@ export function generateIndex() {
   </div>
   <div class="right-part">
     <div class="right-middle-arrow">
-      <a href="#contact">
+      <a class="test" href="#contact">
         <i class="fas fa-arrow-right direction"></i><br />
       </a>
     </div>

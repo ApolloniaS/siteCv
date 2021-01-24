@@ -49,7 +49,7 @@ export const translations = [
   },
   {
     id: 8,
-    name: 'projects-technolog',
+    name: 'projects-technology',
     fr: 'Langage',
     en: 'Language',
   },

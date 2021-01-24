@@ -18,3 +18,8 @@ export function switchLanguage(renderSection) {
     }
   });
 }
+
+export function createCopyrightBottom(id) {
+  const copyInfo = document.querySelectorAll('.copyInfoBottom');
+  displayCopyright(copyInfo[id]);
+}

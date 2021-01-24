@@ -1,4 +1,4 @@
-import { getContainers, displayCopyright } from '../data/custom-function';
+import { getContainers, createCopyrightBottom } from '../data/custom-function';
 
 export function generateContact() {
   getContainers(1, 'contactContainer', 'contact');
@@ -54,6 +54,5 @@ export function generateContact() {
   <div class="title-bottom">CONTACT__</div>
   `;
 
-  const copyInfo = document.querySelectorAll('.copyInfoBottom');
-  displayCopyright(copyInfo[1]);
+  createCopyrightBottom(1);
 }

@@ -60,6 +60,5 @@ export function generateParcours() {
     }
   }
   renderParcours('en');
-
   switchLanguage(renderParcours);
 }

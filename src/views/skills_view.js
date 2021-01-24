@@ -1,4 +1,4 @@
-import { getContainers, displayCopyright } from '../data/custom-function';
+import { getContainers, createCopyrightBottom } from '../data/custom-function';
 
 export function generateSkills() {
   getContainers(1, 'skillsContainer', 'skills');
@@ -73,7 +73,7 @@ export function generateSkills() {
         </div>
         <div class="other-computer-skills">
           <i class="fas fa-laptop skills-other"></i><br/>
-          <br><i class="fas fa-file-word skills-icon"></i><span class="name-skill">&nbsp; Microsft Office</span><br/>
+          <br><i class="fas fa-file-word skills-icon"></i><span class="name-skill">&nbsp; Microsoft Office</span><br/>
           <br><i class="fas fa-cat skills-icon"></i><span class="name-skill"><a title ="Outils de TAO">&nbsp; CAT tools (Trados, MemoQ)</a></span><br/>
         </div>
       </div>
@@ -83,6 +83,5 @@ export function generateSkills() {
   <div class="title-bottom">SKILLS__</div>
   `;
 
-  const copyInfo = document.querySelectorAll('.copyInfoBottom');
-  displayCopyright(copyInfo[0]);
+  createCopyrightBottom(0);
 }

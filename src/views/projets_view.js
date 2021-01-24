@@ -1,4 +1,4 @@
-import { getContainers, displayCopyright, switchLanguage } from '../data/custom-function';
+import { getContainers, createCopyrightBottom, switchLanguage } from '../data/custom-function';
 import { projects } from '../data/projects-data';
 import { translations } from '../data/translated-data';
 
@@ -25,8 +25,7 @@ export function generateProjets() {
   <div class="title-bottom">${translations[6][lang]}</div>
   `;
 
-    const copyInfo = document.querySelectorAll('.copyInfoBottom');
-    displayCopyright(copyInfo[2]);
+    createCopyrightBottom(2);
 
     // génération du menu
     // et du projet correspondant
@@ -43,7 +42,7 @@ export function generateProjets() {
     for (let j = 0; j < projectNames.length; j++) {
       projectNames[j].addEventListener('click', () => {
         video.innerHTML = `<img src="images/${projects[j].preview}"/>`;
-        details.innerHTML = `${translations[7][lang]}: ${projects[j].name}<br/>${translations[8][lang]}: ${projects[j].language}<br/>Description: ${projects[j].description[lang]}`;
+        details.innerHTML = `${translations[7][lang]}: ${projects[j].name}<br/><hr>${translations[8][lang]}: ${projects[j].language}<br/><hr>Description: ${projects[j].description[lang]}`;
       });
     }
   }
