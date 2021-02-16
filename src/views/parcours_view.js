@@ -25,6 +25,27 @@ export function generateParcours() {
       <div class="link-CV"><i class="far fa-file"></i>&nbsp; ${translations[5][lang]}</div>
       </div>
     </div>
+    <div class="mobile-background">
+    ${translations[9][lang]} <i class="far fa-smile"></i>
+      <div class="exp-table">
+        <div class="grid-cell cell-study">Web Application Developer</div>
+        <div class="grid-cell cell-study">${translations[10][lang]}</div>
+        <div class="grid-cell cell-study">Java<br/>(Initiation)</div>
+        <div class="grid-cell cell-work">${translations[11][lang]}<br/>(EN, JP, ZH -> FR)</div>
+        <div class="grid-cell cell-work">${translations[12][lang]}</div>
+        <div class="grid-cell cell-work">Talent Manager</div>
+        <div class="grid-cell cell-work">${translations[11][lang]}<br/>(EN, IT -> FR)</div>
+        <div class="grid-cell cell-study">${translations[13][lang]}</div>
+        <div class="grid-cell cell-work">${translations[14][lang]}</div>
+        <div class="grid-cell cell-study">${translations[15][lang]}</div>
+        <div class="grid-cell cell-study">${translations[16][lang]}<br/>(ZH, EN -> FR)</div>
+        <div class="pop-up-img"></div>
+      </div>
+      <br/>
+      <div class="cell-work">${translations[3][lang]}</div><div class="cell-study">${translations[4][lang]}</div>
+      <br/>
+      ${translations[5][lang]}
+    </div>
     <div class="nav-arrow-down">
       <a href="#index"><i class="fas fa-arrow-down direction"></i></a>
     </div>
@@ -48,7 +69,6 @@ export function generateParcours() {
 
     // ligne du tps
     const dots = document.querySelectorAll('.date');
-
     for (const dot of dots) {
       dot.addEventListener('mouseenter', () => {
         document.querySelectorAll('.active').forEach((el) => el.classList.remove('active'));
@@ -58,7 +78,22 @@ export function generateParcours() {
       document.querySelectorAll('.active').forEach((el) => el.classList.remove('active'));
     }); */
     }
+
+    // on touch pour mobile
+    const gridCells = document.querySelectorAll('.grid-cell');
+    const popUp = document.querySelector('.pop-up-img');
+    for (let j = 0; j < gridCells.length; j++) {
+      gridCells[j].addEventListener('touchstart', () => {
+        popUp.style.display = 'block';
+        popUp.innerHTML = `<div class="close-popup">X</div><br/><img src="images/${experience[j].card[lang]}" alt=""/>`;
+        const closePopUp = document.querySelector('.close-popup');
+        closePopUp.addEventListener('touchstart', () => {
+          popUp.style.display = 'none';
+        });
+      });
+    }
   }
+
   renderParcours('en');
   switchLanguage(renderParcours);
 }

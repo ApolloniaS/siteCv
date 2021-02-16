@@ -116,3 +116,58 @@
 .link-CV {
   padding-top: 1%;
 }
+@media screen and (min-width: 360px)
+{
+  .mobile-background
+  {
+    display: none;
+  }
+}
+
+// mobile
+@media screen and (max-width: 640px){
+  .timeline-container, .legend{
+    display : none;
+  }
+  .mobile-background{
+    display: block;
+    width: 95%;
+    margin: auto;
+    position: absolute;
+    top: 15%;
+    left: 2.5%;
+    text-align: center;
+  }
+  .exp-table {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .grid-cell{
+    padding: 5%;
+  }
+
+  .pop-up-img {
+    display: none;
+    width: 300px;
+    height: 200px;
+    background-color:#6b5677da;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .pop-up-img img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .cell-study{
+    background-color: $background;
+  }
+  .cell-work {
+    background-color: $block-background;
+  }
+}

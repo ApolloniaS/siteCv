@@ -27,13 +27,13 @@ export const translations = [
     id: 4,
     name: 'background-3',
     fr: 'Études',
-    en: 'Studies',
+    en: 'Education',
   },
   {
     id: 5,
     name: 'background-4',
-    fr: 'Ou cliquez ici pour télécharger mon CV',
-    en: 'Or click here to download my resume',
+    fr: 'Cliquez ici pour télécharger mon CV',
+    en: 'Click here to download my resume',
   },
   {
     id: 6,
@@ -52,5 +52,54 @@ export const translations = [
     name: 'projects-technology',
     fr: 'Langage',
     en: 'Language',
+  },
+  // MOBILE
+  {
+    id: 9,
+    name: 'background-message',
+    fr: 'Touchez une case pour plus d\'informations&nbsp;!',
+    en: 'Touch a cell to see more!',
+  },
+  {
+    id: 10,
+    name: 'background-Java-Certification',
+    fr: 'Java (Préparation à la certification)',
+    en: 'Java (Certification Preparation)',
+  },
+  {
+    id: 11,
+    name: 'background-translator',
+    fr: 'Traductrice',
+    en: 'Translator',
+  },
+  {
+    id: 12,
+    name: 'background-teacher',
+    fr: 'Professeur d\'anglais',
+    en: 'English Teacher',
+  },
+  {
+    id: 13,
+    name: 'background-NUFS',
+    fr: 'Langue et culture japonaises',
+    en: 'Japanese language and culture',
+  },
+  {
+    id: 14,
+    name: 'background-subtitler',
+    fr: 'Sous-titreuse',
+    en: 'Subtitler',
+  },
+  {
+    id: 15,
+    name: 'background-sisu',
+    fr: 'Langue chinoise',
+    en: 'Chinese language',
+  },
+  {
+    id: 16,
+    name: 'background-isti',
+    fr: 'Traduction',
+    en: 'Translation',
   },
 ];
