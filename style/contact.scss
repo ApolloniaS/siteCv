@@ -54,3 +54,25 @@ textarea {
     left: 0;  
     transform: translate(50%, -50%);
 }
+
+//mobile
+@media screen and (max-width: 640px)
+{
+    .contact-form 
+    {
+        display: none;
+    }
+
+    .message
+    {
+        font-size: 30px;
+    }
+
+    .links
+    {
+        left: 20%;
+        top: 50%;
+        right: 0;
+        transform: translate(0, -50%);
+    }
+}

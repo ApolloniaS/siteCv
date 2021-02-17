@@ -7,7 +7,7 @@ export function generateContact() {
   const contact = document.querySelector('.contact');
   contact.innerHTML += `
   <div class="message">
-    Looking for an internship __ À la recherche d'un stage !
+    Looking for an internship __ À la recherche d'un stage&nbsp;!
   </div>
   <div class="nav-arrow-left">
     <a href="#index">

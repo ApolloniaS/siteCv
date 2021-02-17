@@ -39,12 +39,13 @@ export function generateParcours() {
         <div class="grid-cell cell-work">${translations[14][lang]}</div>
         <div class="grid-cell cell-study">${translations[15][lang]}</div>
         <div class="grid-cell cell-study">${translations[16][lang]}<br/>(ZH, EN -> FR)</div>
+        <div class="grid-cell">${translations[5][lang]}</div>
         <div class="pop-up-img"></div>
       </div>
       <br/>
       <div class="cell-work">${translations[3][lang]}</div><div class="cell-study">${translations[4][lang]}</div>
       <br/>
-      ${translations[5][lang]}
+      
     </div>
     <div class="nav-arrow-down">
       <a href="#index"><i class="fas fa-arrow-down direction"></i></a>
@@ -82,7 +83,7 @@ export function generateParcours() {
     // on touch pour mobile
     const gridCells = document.querySelectorAll('.grid-cell');
     const popUp = document.querySelector('.pop-up-img');
-    for (let j = 0; j < gridCells.length; j++) {
+    for (let j = 0; j < gridCells.length - 1; j++) {
       gridCells[j].addEventListener('touchstart', () => {
         popUp.style.display = 'block';
         popUp.innerHTML = `<div class="close-popup">X</div><br/><img src="images/${experience[j].card[lang]}" alt=""/>`;
