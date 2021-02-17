@@ -17,8 +17,8 @@ export function generateProjets() {
   </div>
   <div class="switch-language current-${lang}">${translations[0][lang]}</div>
   <div class="projects-main">
-  <div class="projects-menu"></div>            
-  <div class="video"></div>
+    <div class="projects-menu"></div>            
+    <div class="video"></div>
   </div>
   <div class="details"></div>
   <div class="copyInfoBottom"></div>
@@ -46,6 +46,7 @@ export function generateProjets() {
       });
     }
   }
+
   renderProjets('en');
   switchLanguage(renderProjets);
 }

@@ -85,3 +85,29 @@
   right: 0;
   transform: translate(-50%, -50%);
 }
+
+// mobile
+@media screen and (max-width: 640px)
+{
+  .tabs 
+  {
+    display: block;
+    
+
+  }
+
+  .skill-tab
+  {
+    width: 100%;
+    margin-bottom: 5%;
+  }
+
+  .subtab-title{
+    text-align: center;
+  }
+
+  .subtab-content
+  {
+    display: none;
+  }
+}
