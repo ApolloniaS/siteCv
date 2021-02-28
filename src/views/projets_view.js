@@ -41,7 +41,7 @@ export function generateProjets() {
 
     for (let j = 0; j < projectNames.length; j++) {
       projectNames[j].addEventListener('click', () => {
-        video.innerHTML = `<a href="#"><img src="images/${projects[j].preview}"/></a>`;
+        video.innerHTML = `<a href="${projects[j].link}"><img src="images/${projects[j].preview}"/></a>`;
         details.innerHTML = `${translations[7][lang]}: ${projects[j].name}<br/><hr>${translations[8][lang]}: ${projects[j].language}<br/><hr>Description: ${projects[j].description[lang]}`;
       });
     }

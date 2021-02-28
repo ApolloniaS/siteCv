@@ -12,11 +12,14 @@ export function generateIndex() {
         <i class="fas fa-arrow-left direction"></i><br />
       </a>
     </div>
-    <span>Skills</span>
+    <span class="vertical">Skills</span>
   </div>
+  <div class="intro-txt">__Slide to navigate!</div>
   <div class="floating-box-middle">
-    <img src="images/index-about.png" alt=""/>
+    <img class="desktop" src="images/index-about-new.png" alt=""/>
     <img class="avatar" src="images/index-avatar.png" alt=""/>
+    <div class="mobile-txt-1">Console.WriteLine("Apollonia Sorella");</div>
+    <div class="mobile-txt-2">Console.WriteLine("Junior Web Application Developper");</div>
   </div>
   <div class="right-part">
     <div class="right-middle-arrow">
@@ -24,7 +27,7 @@ export function generateIndex() {
         <i class="fas fa-arrow-right direction"></i><br />
       </a>
     </div>
-    <span>Contact</span>
+    <span class="vertical">Contact</span>
   </div>
   <div class="bottom-part">
   <div class="bottom-middle-arrow">

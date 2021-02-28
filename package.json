@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "start": "parcel index.html"
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url http://www.if3projets.net/wad20/apollonia"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +14,7 @@
     "@fortawesome/fontawesome-free": "5.15.1"
   },
   "devDependencies": {
+    "@fortawesome/fontawesome": "^1.1.3",
     "eslint": "7.14.0",
     "eslint-config-airbnb-base": "14.2.1",
     "eslint-plugin-import": "2.22.1",
